@@ -1,0 +1,57 @@
+:root {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  *,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+    margin: 0;
+  }
+  
+  body {
+    background-color: rgb(182, 222, 158);
+    color: #fff;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 2rem;
+    position: relative;
+  }
+  a {
+    text-decoration: none;
+  }
+  button {
+    border: none;
+    background-color: none;
+  }
+  input,
+  input:focus {
+    border-color: none;
+    outline: none;
+    border: none;
+  }
+  
+  main {
+    margin-top: 2rem;
+    width: 100vw;
+    max-width: 30rem;
+    background-color: rgb(220, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+  }
+
+  .meaning{
+    width: 100%;
+    border: thick solid rgb(216, 201, 201);
+    padding: 2rem;
+  }
+
+  .definition {
+    font-style: italic;
+  }
